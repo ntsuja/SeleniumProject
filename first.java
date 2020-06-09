@@ -39,7 +39,7 @@ public void addtocart() throws InterruptedException {
 		 System.out.println(strlinktext);	 	 	
 	}
 	
-	driver.findElement(By.xpath("//*[@id=\"cta-bundle\"]/div/div/div/div[2]/div/div/div[3]/button"));
+	driver.findElement(By.xpath("//*[@id=\"cta-bundle\"]/div/div/div/div[2]/div/div/div[3]/button")).click();
 	
 }
 	public static void main(String[] args) throws InterruptedException {
